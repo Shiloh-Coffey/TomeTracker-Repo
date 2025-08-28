@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/goatcorp/Dalamud/master/pluginmaster.json",
+  "Repository": "TomeTracker",
+  "Author": "Shishou",
+  "RepositoryUrl": "https://github.com/Shiloh-Coffey/TomeTracker-Repo",
+  "Tags": [
+    "tomes",
+    "crafting",
+    "gathering"
+  ],
+  "Plugins": [
+    {
+      "Name": "Tome Tracker",
+      "Author": "Shishou",
+      "Description": "Track your crafting and gathering tome progress in real-time. Automatically loads tomes from FFXIV game data and shows unlocked/locked status for each class.",
+      "Punchline": "Track your crafting and gathering tome progress in real-time.",
+      "Tags": [
+        "tomes",
+        "crafting",
+        "gathering",
+        "progress",
+        "tracking"
+      ],
+      "CategoryTags": [
+        "UI",
+        "Utility"
+      ],
+      "IsHide": false,
+      "IsTestingExclusive": false,
+      "InstalledFromUrl": "https://github.com/Shiloh-Coffey/TomeTracker-Repo",
+      "AssemblyVersion": "1.0.0.0",
+      "TestingAssemblyVersion": "1.0.0.0",
+      "IsThirdParty": true,
+      "IconUrl": "https://raw.githubusercontent.com/Shiloh-Coffey/TomeTracker-Repo/main/assets/icon.png",
+      "DownloadLinkInstall": "https://github.com/Shiloh-Coffey/TomeTracker-Repo/releases/latest/download/TomeTracker.zip",
+      "DownloadLinkUpdate": "https://github.com/Shiloh-Coffey/TomeTracker-Repo/releases/latest/download/TomeTracker.zip",
+      "DownloadLinkTesting": "https://github.com/Shiloh-Coffey/TomeTracker-Repo/releases/latest/download/TomeTracker.zip",
+      "LoadPriority": 0,
+      "ImageUrls": [],
+      "ChangeLog": "- Initial release of Tome Tracker\n- Track crafting and gathering tome progress\n- Real-time unlock status from game data\n- Class-based filtering for all jobs"
+    }
+  ]
+}
